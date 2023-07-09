@@ -61,11 +61,22 @@ SELECT member_casual user_type, rideable_type bike_type, EXTRACT(EPOCH FROM AVG(
 
 -- Total trips by days
 SELECT member_casual user_type, day_of_week, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week;
+-- Query to get name of day 
 -- https://www.commandprompt.com/education/how-to-get-day-names-in-postgresql/
--- SELECT member_casual user_type, TO_CHAR(started_at, 'day') day_of_week_name, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week_name;
+-- SELECT member_casual user_type, TO_CHAR(started_at, 'day') day_of_week_name, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week, day_of_week_name ORDER BY member_casual, day_of_week;
 
 -- Total trips by bike type
-SELECT member_casual user_type, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, rideable_type;
+SELECT member_casual user_type, rideable_type bike_type, COUNT(ride_id) total_trip FROM trips GROUP BY member_casual, rideable_type;
+SELECT  member_casual user_type, day_of_week, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week, rideable_type;
 
 -- Total trips by bike type and days
-SELECT  member_casual user_type, day_of_week, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week, rideable_type;
+-- Old
+-- SELECT  member_casual user_type, day_of_week, rideable_type bike_type, COUNT(ride_id) total_trip FROM trips GROUP BY member_casual, day_of_week, rideable_type;
+-- New (for visualizing)
+SELECT TO_CHAR(started_at, 'day') day_of_week_name, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips WHERE member_casual = 'casual' GROUP BY day_of_week, day_of_week_name, rideable_type ORDER BY day_of_week;	
+
+SELECT  TO_CHAR(started_at, 'day') day_of_week_name, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips WHERE member_casual = 'member' GROUP BY day_of_week, day_of_week_name, rideable_type ORDER BY day_of_week;	
+
+-- Distribution (for visualizing)
+SELECT EXTRACT(EPOCH FROM ride_length) ride_length_secs FROM trips WHERE member_casual = 'casual' ORDER BY ride_length DESC;
+SELECT EXTRACT(EPOCH FROM ride_length) ride_length_secs FROM trips WHERE member_casual = 'member' ORDER BY ride_length DESC;
