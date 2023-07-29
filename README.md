@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/NguyenN95/Cyclistic-Analysis">
-    <img src="images/logo.PNG" alt="Logo" width="80" height="80">
+    <img src="images/logo.gif" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Cyclistic Analysis</h3>
@@ -24,14 +24,16 @@
   <p align="center">
     How do annual members and casual riders use Cyclistic bikes differently?
     <br />
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/NguyenN95/Cyclistic-Analysis#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis">View Demo</a>
+    <a href="https://www.kaggle.com/code/nguyenn95/analyze-bike-usage-between-casual-and-member">View Notebook</a>
     ·
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/issues">Report Bug</a>
+    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/script.sql">View SQL script</a>
     ·
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/issues">Request Feature</a>
+    <a href="#">View Excel analysis (05/2023)</a>
+    ·
+    <a href="#">View Power BI dashboard</a>
   </p>
 </div>
 
@@ -109,7 +111,6 @@ These instructions below are meant to be for reproducing running application on 
 * Postgres
 * R Studio
 * Valentino DB (**optional**)
-* VS Code (**optional**)
 
 
 ### Installation
@@ -117,6 +118,8 @@ These instructions below are meant to be for reproducing running application on 
 * [Download][Microsoft-Excel-url] and [How to install](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658) **Microsoft Excel**
 * [Download](https://go.microsoft.com/fwlink/?LinkId=2240819&clcid=0x409) and [How to install](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop) **Power BI**
 * [Download](https://www.postgresql.org/download/) and [How to install](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/) **Postgre**
+
+<!-- TODO add installation for Valentino DB -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,11 +138,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
 See the [open issues](https://github.com/NguyenN95/Cyclistic-Analysis/issues) for a full list of proposed features (and known issues).
 
@@ -197,13 +195,19 @@ Project Link: [https://github.com/NguyenN95/Cyclistic-Analysis](https://github.c
 * [06/2022 - 05/2023 trip data](https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data)
 * [Original dataset](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-**Tools**
+**README.md Template**
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Markdown-badges](https://github.com/Ileriayo/markdown-badges)
+
+**Markdown + Shields.io + Emoji**
+
 * [How to make custom language badges for your profile using shields.io](https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b)
-* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+* [Markdown-badges](https://github.com/Ileriayo/markdown-badges)
 * [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+**VS Code Extension**
+
+* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
