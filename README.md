@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/NguyenN95/Cyclistic-Analysis">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.PNG" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Cyclistic Analysis</h3>
@@ -77,8 +77,9 @@ I am a *junior data analyst* working in the marketing analyst team at ***Cyclist
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
-**Moreno** - *The director of marketing and your manager*, has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes
-differently?
+**Moreno** - *The director of marketing and your manager*, has assigned me the first question to answer: 
+> **How do annual members and casual riders use Cyclistic bikes
+differently?**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
