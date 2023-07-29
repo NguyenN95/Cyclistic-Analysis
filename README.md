@@ -100,32 +100,23 @@ differently?**
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+These instructions below are meant to be for reproducing running application on your machine.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Microsoft Excel
+* Power BI
+* Postgres
+* R Studio
+* Valentino DB (**optional**)
+* VS Code (**optional**)
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/NguyenN95/Cyclistic-Analysis.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+* [Download][Microsoft-Excel-url] and [How to install](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658) **Microsoft Excel**
+* [Download](https://go.microsoft.com/fwlink/?LinkId=2240819&clcid=0x409) and [How to install](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop) **Power BI**
+* [Download](https://www.postgresql.org/download/) and [How to install](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/) **Postgre**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,6 +191,11 @@ Project Link: [https://github.com/NguyenN95/Cyclistic-Analysis](https://github.c
 **Course**
 
 * [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics)
+
+**Dataset**
+
+* [06/2022 - 05/2023 trip data](https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data)
+* [Original dataset](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 **Tools**
 
