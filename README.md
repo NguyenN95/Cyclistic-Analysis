@@ -27,13 +27,25 @@
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.kaggle.com/code/nguyenn95/analyze-bike-usage-between-casual-and-member">View Notebook</a>
-    ·
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/script.sql">View SQL script</a>
+    <br/>
+    <br/>
+    <a href="https://docs.google.com/spreadsheets/d/1-QNdF5aBtwqJsOPcQxwb6e3S27pImEuf/edit?usp=drive_link&ouid=110934159846942433395&rtpof=true&sd=true">Download Excel analysis (05/2023)</a>
     ·
-    <a href="#">View Excel analysis (05/2023)</a>
+    <a href="https://drive.google.com/file/d/1-TatybsDLky1I9-46Xt61a5RX6BA0l3W/view?usp=drive_link">Download Power BI file</a>
+    <br/>
+    <br/>
+    <a href="https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data">View Dataset</a>
+    .
+    <a href="https://www.kaggle.com/code/nguyenn95/analyze-bike-usage-between-casual-and-member">View Kaggle Notebook</a>
+    .
+    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/analyze-bike-usage-between-casual-and-member.ipynb">View Notebook</a>
     ·
-    <a href="#">View Power BI dashboard</a>
+    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/2022-06_2023-05_trip_data_analysis.pdf">View Power BI reports</a>
+    ·
+    <a href="#">View partial Excel analysis (05/2023)</a>
+    .
+    <a href="#">View Tableau Dashboard</a>
   </p>
 </div>
 
