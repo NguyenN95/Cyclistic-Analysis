@@ -37,7 +37,7 @@
     <br/>
     <a href="https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data">View Dataset</a>
     .
-    <a href="https://www.kaggle.com/code/nguyenn95/analyze-bike-usage-between-casual-and-member">View Notebook</a>
+    <a href="https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r">View Notebook</a>
     ·
     <a href="#">View partial Excel analysis (05/2023)</a>
     .
@@ -78,7 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/NguyenN95/Cyclistic-Analysis)
+[![Product Name Screen Shot][product-screenshot]](https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r)
 
 I am a *junior data analyst* working in the marketing analyst team at ***Cyclistic***, a bike-share company in ***Chicago***. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand *how casual riders and annual members use Cyclistic bikes differently*. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
