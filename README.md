@@ -37,11 +37,7 @@
     <br/>
     <a href="https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data">View Dataset</a>
     .
-    <a href="https://www.kaggle.com/code/nguyenn95/analyze-bike-usage-between-casual-and-member">View Kaggle Notebook</a>
-    .
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/analyze-bike-usage-between-casual-and-member.ipynb">View Notebook</a>
-    ·
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/2022-06_2023-05_trip_data_analysis.pdf">View Power BI reports</a>
+    <a href="https://www.kaggle.com/code/nguyenn95/analyze-bike-usage-between-casual-and-member">View Notebook</a>
     ·
     <a href="#">View partial Excel analysis (05/2023)</a>
     .
