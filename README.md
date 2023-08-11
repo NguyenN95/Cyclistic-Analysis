@@ -37,11 +37,13 @@
     <br/>
     <a href="https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data">View Dataset</a>
     .
-    <a href="https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r">View Notebook</a>
-    ·
-    <a href="#">View partial Excel analysis (05/2023)</a>
+    <a href="https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r">View R Notebook</a>
     .
-    <a href="#">View Tableau Dashboard</a>
+    <a href="https://www.kaggle.com/code/nguyenn95/cyclistic-analystic-using-python">View Python Notebook</a>
+    ·
+    <a href="#">Preview Excel analysis (05/2023)</a>
+    .
+    <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16917523094200/Membertotaltripbybiketypeanddayofweek">View Tableau Dashboard</a>
   </p>
 </div>
 
