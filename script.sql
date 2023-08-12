@@ -47,36 +47,35 @@ SELECT COUNT(DISTINCT ride_id) total_distinct_rows FROM trips;
 -- Summary ride time (in seconds)
 -- https://stackoverflow.com/questions/45417079/convert-interval-to-number-in-postgresql
 -- https://stackoverflow.com/questions/12067656/how-do-i-get-min-median-and-max-from-my-query-in-postgresql
-SELECT 
-    member_casual user_type, 
-    EXTRACT(EPOCH FROM AVG(ride_length)) mean, 
+SELECT  
+    ROUND(AVG(EXTRACT(EPOCH FROM ride_length)), 2) mean, 
     EXTRACT(EPOCH FROM PERCENTILE_CONT(0.5) WITHIN GROUP(ORDER BY ride_length)) median, 
     EXTRACT(EPOCH FROM MAX(ride_length)) max, 
     EXTRACT(EPOCH FROM MIN(ride_length)) min
-FROM trips 
-GROUP BY member_casual;
+FROM trips;
 
--- Average ride time by bike type
+-- Average ride time between casual and member by day of week
+SELECT member_casual user_type, TO_CHAR(started_at, 'day') day_of_week_name, EXTRACT(EPOCH FROM AVG(ride_length)) avg_trip_duration FROM trips GROUP BY member_casual, day_of_week, day_of_week_name ORDER BY day_of_week;
+
+-- Average ride time between casual and member by bike type
 SELECT member_casual user_type, rideable_type bike_type, EXTRACT(EPOCH FROM AVG(ride_length)) avg_trip_duration FROM trips GROUP BY member_casual, rideable_type;
 
--- Total trips by days
-SELECT member_casual user_type, day_of_week, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week;
 -- Query to get name of day 
 -- https://www.commandprompt.com/education/how-to-get-day-names-in-postgresql/
--- SELECT member_casual user_type, TO_CHAR(started_at, 'day') day_of_week_name, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week, day_of_week_name ORDER BY member_casual, day_of_week;
 
--- Total trips by bike type
+-- Total trips between casual and member by day of week
+SELECT member_casual user_type, TO_CHAR(started_at, 'day') day_of_week_name, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week, day_of_week_name ORDER BY member_casual, day_of_week;
+
+-- Total trips between casual and member by bike type
 SELECT member_casual user_type, rideable_type bike_type, COUNT(ride_id) total_trip FROM trips GROUP BY member_casual, rideable_type;
-SELECT  member_casual user_type, day_of_week, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips GROUP BY member_casual, day_of_week, rideable_type;
+
+-- Aggregation analysis
+-- Average ride time by bike type and days
+SELECT TO_CHAR(started_at, 'day') day_of_week_name, rideable_type bike_type, EXTRACT(EPOCH FROM AVG(ride_length)) avg_trip_duration FROM trips WHERE member_casual = 'casual' GROUP BY day_of_week, day_of_week_name, rideable_type ORDER BY day_of_week;	
+
+SELECT  TO_CHAR(started_at, 'day') day_of_week_name, rideable_type bike_type, EXTRACT(EPOCH FROM AVG(ride_length)) avg_trip_duration FROM trips WHERE member_casual = 'member' GROUP BY day_of_week, day_of_week_name, rideable_type ORDER BY day_of_week;	
 
 -- Total trips by bike type and days
--- Old
--- SELECT  member_casual user_type, day_of_week, rideable_type bike_type, COUNT(ride_id) total_trip FROM trips GROUP BY member_casual, day_of_week, rideable_type;
--- New (for visualizing)
 SELECT TO_CHAR(started_at, 'day') day_of_week_name, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips WHERE member_casual = 'casual' GROUP BY day_of_week, day_of_week_name, rideable_type ORDER BY day_of_week;	
 
 SELECT  TO_CHAR(started_at, 'day') day_of_week_name, rideable_type bike_type, COUNT(ride_id) total_trips FROM trips WHERE member_casual = 'member' GROUP BY day_of_week, day_of_week_name, rideable_type ORDER BY day_of_week;	
-
--- Distribution (for visualizing)
-SELECT EXTRACT(EPOCH FROM ride_length) ride_length_secs FROM trips WHERE member_casual = 'casual' ORDER BY ride_length DESC;
-SELECT EXTRACT(EPOCH FROM ride_length) ride_length_secs FROM trips WHERE member_casual = 'member' ORDER BY ride_length DESC;
