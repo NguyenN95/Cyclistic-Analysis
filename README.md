@@ -30,9 +30,9 @@
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/script.sql">View SQL script</a>
     <br/>
     <br/>
-    <a href="https://docs.google.com/spreadsheets/d/1-QNdF5aBtwqJsOPcQxwb6e3S27pImEuf/edit?usp=drive_link&ouid=110934159846942433395&rtpof=true&sd=true">Download Excel analysis (05/2023)</a>
+    <a href="https://drive.google.com/file/d/1-QNdF5aBtwqJsOPcQxwb6e3S27pImEuf/view">Download Excel analysis (05/2023)</a>
     ·
-    <a href="https://drive.google.com/file/d/1-TatybsDLky1I9-46Xt61a5RX6BA0l3W/view?usp=drive_link">Download Power BI file</a>
+    <a href="https://drive.google.com/file/d/1-TatybsDLky1I9-46Xt61a5RX6BA0l3W/view">Download Power BI file</a>
     <br/>
     <br/>
     <a href="https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data">View Dataset</a>
@@ -40,8 +40,6 @@
     <a href="https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r">View R Notebook</a>
     .
     <a href="https://www.kaggle.com/code/nguyenn95/cyclistic-analystic-using-python">View Python Notebook</a>
-    ·
-    <a href="#">Preview Excel analysis (05/2023)</a>
     .
     <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16917523094200/Membertotaltripbybiketypeanddayofweek">View Tableau Dashboard</a>
   </p>
@@ -66,8 +64,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -122,40 +118,18 @@ These instructions below are meant to be for reproducing running application on 
 
 ### Prerequisites
 
-* Microsoft Excel
-* Power BI
-* Postgres
-* R Studio
-* Valentino DB (**optional**)
-
+* [Download Microsoft Excel][Microsoft-Excel-url]
+* [Download Power BI](https://go.microsoft.com/fwlink/?LinkId=2240819&clcid=0x409)
+* [Download Postgres](https://www.postgresql.org/download/)
+* [Download R Studio](https://posit.co/download/rstudio-desktop/)
+* [Download Valentino Studio (latest)][Valentino-download-url] (**Optional**)
 
 ### Installation
 
-* [Download][Microsoft-Excel-url] and [How to install](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658) **Microsoft Excel**
-* [Download](https://go.microsoft.com/fwlink/?LinkId=2240819&clcid=0x409) and [How to install](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop) **Power BI**
-* [Download](https://www.postgresql.org/download/) and [How to install](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/) **Postgre**
-
-<!-- TODO add installation for Valentino DB -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/NguyenN95/Cyclistic-Analysis/issues) for a full list of proposed features (and known issues).
+* [How to install **Microsoft Excel**](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658) 
+* [How to install **Power BI**](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop)
+* [How to install **Postgre**](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
+* [How to install **Valentino studio**](https://valentina-db.com/docs/dokuwiki/v12/doku.php?id=valentina:products:vstudio:manual:installation) (**Optional**)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,3 +239,5 @@ Project Link: [https://github.com/NguyenN95/Cyclistic-Analysis](https://github.c
 
 [Kaggle]: https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white
 [Kaggle-url]: https://www.kaggle.com/
+
+[Valentino-download-url]: https://valentina-db.com/en/studio/download
