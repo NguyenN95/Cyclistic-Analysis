@@ -41,7 +41,7 @@
     .
     <a href="https://www.kaggle.com/code/nguyenn95/cyclistic-analystic-using-python">View Python Notebook</a>
     .
-    <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16917523094200/Membertotaltripbybiketypeanddayofweek">View Tableau Dashboard</a>
+    <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16918599784790/Ridetimedistributionnormalorskew">View Tableau Dashboard</a>
   </p>
 </div>
 
