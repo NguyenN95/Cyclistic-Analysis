@@ -25,23 +25,8 @@
     Finding insights to improve marketing campaign which attracts casuals switch to members more
     <br />
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis#about-the-project"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/script.sql">View SQL script</a>
-    <br/>
     <br/>
     <a href="https://drive.google.com/file/d/1-QNdF5aBtwqJsOPcQxwb6e3S27pImEuf/view">Download Excel analysis (05/2023)</a>
-    ·
-    <a href="https://drive.google.com/file/d/1-TatybsDLky1I9-46Xt61a5RX6BA0l3W/view">Download Power BI file</a>
-    <br/>
-    <br/>
-    <a href="https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data">View Dataset</a>
-    .
-    <a href="https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r">View R Notebook</a>
-    .
-    <a href="https://www.kaggle.com/code/nguyenn95/cyclistic-analystic-using-python">View Python Notebook</a>
-    .
-    <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16918599784790/Ridetimedistributionnormalorskew">View Tableau Dashboard</a>
   </p>
 </div>
 
@@ -99,6 +84,15 @@ Finally, Performed Descriptive Analysis and Visualization.
 </a>
 <div align="center">
   <em>SQL script Preview</em>
+</div>
+
+---
+
+<a href="https://www.kaggle.com/code/nguyenn95/cyclistic-analysis-using-r">
+  <img src="images/r_notebook.png" alt="R Notebook">
+</a>
+<div align="center">
+  <em>R Notebook Preview</em>
 </div>
 
 ---
