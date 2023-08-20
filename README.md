@@ -25,8 +25,6 @@
     Finding insights to improve marketing campaign which attracts casuals switch to members more
     <br />
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis#about-the-project"><strong>Explore the docs »</strong></a>
-    <br/>
-    <a href="https://drive.google.com/file/d/1-QNdF5aBtwqJsOPcQxwb6e3S27pImEuf/view">Download Excel analysis (05/2023)</a>
   </p>
 </div>
 
@@ -84,6 +82,15 @@ Finally, Performed Descriptive Analysis and Visualization.
 </a>
 <div align="center">
   <em>SQL script Preview</em>
+</div>
+
+---
+
+<a href="https://drive.google.com/file/d/1-QNdF5aBtwqJsOPcQxwb6e3S27pImEuf/view">
+  <img src="images/excel.png" alt="Microsoft Excel">
+</a>
+<div align="center">
+  <em>Excel Preview</em>
 </div>
 
 ---
