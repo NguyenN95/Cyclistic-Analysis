@@ -97,8 +97,9 @@ Finally, Performed Descriptive Analysis and Visualization.
 <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16918599784790/Totaltripsbybiketypeanddaybasedonfilters">
   <img src="images/tableau_dashboard.png" alt="Tableau Dashboard">
 </a>
-
-<em>image_caption</em>
+<div align="center">
+  <em>Tableau Dashboard Preview</em>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
