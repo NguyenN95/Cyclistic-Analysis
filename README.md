@@ -52,11 +52,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#business-understanding">Business Understanding</a>
     </li>
+    <li>
+      <a href="#data-understanding">Data Understanding</a>
+    </li>
+    <li><a href="#tools">Tools</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -74,32 +75,36 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-<div align="center">
-
-<a href="https://www.kaggle.com/nguyenn95/cyclistic-analysis-using-r">
-  <img src="images/screenshot.gif"/>
-</a>
-
-</div>
-
-I am a *junior data analyst* working in the marketing analyst team at ***Cyclistic***, a bike-share company in ***Chicago***. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand *how casual riders and annual members use Cyclistic bikes differently*. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+## Business Understanding 
+I am a *junior data analyst* working in the marketing analyst team at ***Cyclistic***, a bike-share company in ***Chicago***. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand *how casual riders and annual members use Cyclistic bikes differently*. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
 **Three questions** will guide the future marketing program:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
-**Moreno** - *The director of marketing and your manager*, has assigned me the first question to answer: 
-> **How do annual members and casual riders use Cyclistic bikes
-differently?**
+**Moreno** - *The director of marketing and my manager*, has assigned me the first question to answer: 
+> **How do annual members and casual riders use Cyclistic bikes differently?**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+## Data understanding
+Analyze [trip data from 06/2022 to 05/2023](https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data)  provided by internal. Dataset is about 6 million records before performing any transformations. After download data, I converted date time columns to it corresponding data type, extracts duration by substracting ended_at by started_at, remove any records that have duration less than or equal to 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it was secure).
+Finally, Performed Descriptive Analysis and Visualization.
+
+<a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16918599784790/Totaltripsbybiketypeanddaybasedonfilters">
+  <img src="images/tableau_dashboard.png" alt="Tableau Dashboard">
+</a>
+
+<em>image_caption</em>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## Tools
 
 * [![R][R]][R-url]
 * [![Microsoft Excel][Microsoft Excel]][Microsoft-Excel-url]
