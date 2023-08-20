@@ -19,10 +19,10 @@
     <img src="images/logo.gif" alt="Logo" width="150" height="150">
   </a>
 
-<h3 align="center">Cyclistic Analysis</h3>
+<h3 align="center">Analyze bike usage of Cyclistic</h3>
 
   <p align="center">
-    How do annual members and casual riders use Cyclistic bikes differently?
+    Finding insights to improve marketing campaign which attracts casuals switch to members more
     <br />
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
