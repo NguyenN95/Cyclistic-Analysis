@@ -94,6 +94,33 @@ I am a *junior data analyst* working in the marketing analyst team at ***Cyclist
 Analyze [trip data from 06/2022 to 05/2023](https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data)  provided by internal. Dataset is about 6 million records before performing any transformations. After download data, I converted date time columns to it corresponding data type, extracts duration by substracting ended_at by started_at, remove any records that have duration less than or equal to 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it was secure).
 Finally, Performed Descriptive Analysis and Visualization.
 
+<a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/script.sql">
+  <img src="images/sql_script.png" alt="SQL script">
+</a>
+<div align="center">
+  <em>SQL script Preview</em>
+</div>
+
+---
+
+<a href="https://www.kaggle.com/code/nguyenn95/cyclistic-analysis-using-python">
+  <img src="images/python_notebook.png" alt="Python Notebook">
+</a>
+<div align="center">
+  <em>Python Notebook Preview</em>
+</div>
+
+---
+
+<a href="https://drive.google.com/file/d/1-TatybsDLky1I9-46Xt61a5RX6BA0l3W/view">
+  <img src="images/powerbi_dashboard.png" alt="Power BI Dashboard">
+</a>
+<div align="center">
+  <em>Power BI Preview</em>
+</div>
+
+---
+
 <a href="https://public.tableau.com/app/profile/nguyen.nguyen6937/viz/CyclisticAnalysis_16918599784790/Totaltripsbybiketypeanddaybasedonfilters">
   <img src="images/tableau_dashboard.png" alt="Tableau Dashboard">
 </a>
