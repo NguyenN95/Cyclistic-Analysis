@@ -74,7 +74,7 @@ I am a *junior data analyst* working in the marketing analyst team at ***Cyclist
 
 
 ## Data understanding
-Analyze [trip data from 06/2022 to 05/2023](https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data)  provided by internal. Dataset is about 6 million records before performing any transformations. After download data, I converted date time columns to it corresponding data type, extracts duration by substracting ended_at by started_at, remove any records that have duration less than or equal to 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it was secure).
+Dataset contains [trip data from 06/2022 to 05/2023](https://www.kaggle.com/datasets/nguyenn95/062022-052023-cyclistic-trip-data) provided by internal with nearly 6 million records before performing any transformations. After download data, I converted date time columns to it corresponding data type, extracts duration by substracting ended_at by started_at, remove any records that have duration less than or equal to 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it was secure).
 Finally, Performed Descriptive Analysis and Visualization.
 
 <a href="https://github.com/NguyenN95/Cyclistic-Analysis/blob/main/script.sql">
