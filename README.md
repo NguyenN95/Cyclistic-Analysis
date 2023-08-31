@@ -22,7 +22,7 @@
 <h3 align="center">Analyze bike usage of Cyclistic</h3>
 
   <p align="center">
-    Finding insights to improve marketing campaign which attracts casuals switch to members more
+    Finding insights to improve marketing campaign which attracts casuals switch to members
     <br />
     <a href="https://github.com/NguyenN95/Cyclistic-Analysis#readme"><strong>Explore the docs »</strong></a>
   </p>
